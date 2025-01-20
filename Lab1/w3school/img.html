@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+          background-image: url('img_girl.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover; 
+        }
+    </style>
+    <!--это параметры заднего фона для картинки-->
+</head>
+<body>
+
+<h2>HTML Image</h2>
+<img src="pic_trulli.jpg" alt="Trulli" width="500" height="333"> <!--это выводит картинку, 
+alt отвечает за то если с картиной что то произошло оно выводит текст указанной в alt -->
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600"><!-- атрибуты width и height -->
+
+<p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+    The image will float to the right of the text.</p>
+    
+<p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+The image will float to the left of the text.</p>
+
+
+<picture>
+    <source media="(min-width: 650px)" srcset="https://i.pinimg.com/474x/c2/ce/2d/c2ce2d82a11c90b05ad4abd796ef2fff.jpg?nii=t">
+    <source media="(min-width: 465px)" srcset="https://i.pinimg.com/736x/78/9e/15/789e15b448eee3331300deaa2b403e15.jpg">
+    <img src="https://i.ytimg.com/vi/DFras28n3D4/maxresdefault.jpg">
+</picture>
+
+</body>
+</html>
