@@ -1,0 +1,172 @@
+*{
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+body{
+    background-color:#fff;
+    margin: 0;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    padding-bottom: 32px;
+}
+.screen{
+    margin-right:40px;
+}
+.form{
+    width: 350px;
+}
+
+.block-up {
+    padding: 40px 40px 12px;
+    border: 1px solid rgb(219, 219, 219);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    padding: 0 16px;
+    margin-top: 30px;
+    margin-bottom:  52px;
+}
+.footer_contents{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_links a{
+    margin:0 8px 12px;
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(115, 115, 115)
+}
+.copyright{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(115, 115, 115);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+form input{
+    width: 100%;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 12px 0 12px 8px;
+    margin-bottom: 6px;
+    border: 1px solid rgb(219, 219, 219);
+    box-sizing: border-box;
+}
+.button{
+    background-color: rgba(0, 149, 246, .7);
+    width: 100%;
+    padding: 7px 0;
+    border-radius: 8px;
+    margin: 8px 0;
+    font-weight: 600;
+    border: none;
+    color: #fff;
+}
+.line{
+    margin: 10px 0 24px;
+    width: 100%;
+    color: rgb(115, 115, 115);
+    font-size: 13px;
+    font-weight: 600px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.line::before{
+    content:"";
+    width: 105px;
+    height: 0.5px;
+    background-color: rgb(115, 115, 115);
+    display: block;
+    opacity: 0.5;
+}
+.line::after{
+    content:"";
+    width: 105px;
+    height: 0.5px;
+    background-color: rgb(115, 115, 115);
+    display: block;
+    opacity: 0.5;
+}
+.block-down{
+    margin-top: 12px;
+    border: 1px solid rgb(219, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #385185;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.forget{
+    margin-top: 16px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 400;
+    color:rgb(0, 55, 107);
+    text-align: center;     
+    display: block;
+}
+
+.block-down p{
+    font-size: 14px;
+    padding:10px 0;
+}
+.block-down a{
+    color: rgb(0, 149, 246);
+    text-decoration: none;
+    font-weight: 600;
+}
+.apps-pct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:7px;
+}
+.apps p{
+    font-size: 14px;
+    text-align: center;
+}
+.logo img{
+    width: 174px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.screen img{
+    width: 380px;
+}
+
+.facebook img{
+    width: 16px;
+    height: 16px;
+}
+
+.apps-pct{
+    display: flex;
+}
+.google img{
+    width: 135px;
+}
+.microsoft img{
+    width: 110px;
+}
+
