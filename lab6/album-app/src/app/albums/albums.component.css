@@ -1,0 +1,11 @@
+.album-title {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .album-title:hover {
+    text-decoration: underline;
+  }
+  
+  

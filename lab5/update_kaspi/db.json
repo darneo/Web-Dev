@@ -1,0 +1,155 @@
+{
+    "smartphones": [
+      {
+        "name": "Apple iPhone 13 128Gb черный",
+        "image": "https://resources.cdn-kaspi.kz/img/m/p/h32/h70/84378448199710.jpg?format=preview-large",
+        "price": "276 885 ₸",
+        "likes": 3198
+      },
+      {
+        "name": "Apple iPhone 16 Pro Max 256Gb черный",
+        "image": "https://resources.cdn-kaspi.kz/img/m/p/hcf/h69/87295489343518.png?format=preview-large",
+        "price": "684 848 ₸",
+        "likes": 442
+      },
+      {
+        "name": "Apple iPhone 16 Pro Max 256Gb золотистый",
+        "image": "https://resources.cdn-kaspi.kz/img/m/p/h41/h98/87295491702814.png?format=preview-large",
+        "price": "667 255 ₸",
+        "likes": 569
+      },
+      {
+        "name": "Xiaomi Redmi 13C 8 ГБ/256 ГБ черный",
+        "image": "https://resources.cdn-kaspi.kz/img/m/p/h1b/h77/84526902706206.jpg?format=preview-large",
+        "price": "45 747 ₸",
+        "likes": 2534
+      },
+      {
+        "name": "Apple iPhone 16 Pro Max 256Gb серебристый",
+        "image": "https://resources.cdn-kaspi.kz/img/m/p/h74/ha7/87295492882462.png?format=preview-large",
+        "price": "686 544 ₸",
+        "likes": 353
+      },
+      {
+        "name": "Apple iPhone 16 Pro 256Gb черный",
+        "image": "https://resources.cdn-kaspi.kz/img/m/p/hbc/h31/87295483445278.png?format=preview-large",
+        "price": "637 155 ₸",
+        "likes": 403
+      }
+    ],
+    "smartclocks" : [
+        {
+          "name": "Apple Watch SE GPS Gen.2 2024 S/M 40 мм бежевый",
+          "price": "119 612 ₸",
+          "likes": 68,
+          "image": "https://resources.cdn-kaspi.kz/img/m/p/p55/p9b/5542335.png?format=preview-large"
+        },
+        {
+          "name": "Xiaomi Redmi Watch 5 Active 51 мм черный-черный",
+          "price": "14 982 ₸",
+          "likes": 78,
+          "image": "https://resources.cdn-kaspi.kz/img/m/p/hec/h25/87197780049950.jpg?format=preview-large"
+        },
+        {
+          "name": "Huawei Watch Fit 3 черный",
+          "price": "39 390 ₸",
+          "likes": 167,
+          "image": "https://resources.cdn-kaspi.kz/img/m/p/h60/ha1/86079581487134.jpg?format=preview-large"
+        },
+        {
+          "name": "Y-13 SW 43 мм золотистый-золотистый",
+          "price": "3 989 ₸",
+          "likes": 165,
+          "image": "https://resources.cdn-kaspi.kz/img/m/p/h1b/h3a/85300885454878.jpg?format=preview-large"
+        },
+        {
+          "name": "Huawei Watch GT 5 Pro 46 мм черный-черный",
+          "price": "113 896 ₸",
+          "likes": 108,
+          "image": "https://resources.cdn-kaspi.kz/img/m/p/h52/h7d/87248467787806.jpg?format=preview-large"
+        },
+        {
+          "name": "Apple Watch SE GPS Gen.2 2024 S/M 40 мм черный-черный",
+          "price": "115 007 ₸",
+          "likes": 50,
+          "image": "https://resources.cdn-kaspi.kz/img/m/p/p00/p18/7079036.png?format=preview-large"
+        }
+      ]  ,  
+    "headphones" :[
+        {
+          "name": "Apple AirPods 3 with Lightning Charging Case белый",
+          "price": "67 560 ₸",
+          "likes": 1342,
+          "image": "https://resources.cdn-kaspi.kz/img/m/p/h31/hd7/64362668556318.jpg?format=preview-large"
+        },
+        {
+          "name": "Apple AirPods Pro 2 with Type-C/Wireless Charging белый",
+          "price": "113 819 ₸",
+          "likes": 1367,
+          "image": "https://resources.cdn-kaspi.kz/img/m/p/ha3/h07/84108189630494.jpg?format=preview-large"
+        },
+        {
+          "name": "HYDRA Minor бежевый",
+          "price": "9 990 ₸",
+          "likes": 157,
+          "image": "https://resources.cdn-kaspi.kz/yml/static/assets/badges/b5.svg?v=1"
+        },
+        {
+          "name": "Apple AirPods 4 Active Noise Cancellation белый",
+          "price": "99 995 ₸",
+          "likes": 374,
+          "image": "https://resources.cdn-kaspi.kz/img/m/p/hfa/h5d/87309386514462.png?format=preview-large"
+        },
+        {
+          "name": "Remax PD-BT101 белый",
+          "price": "2 194 ₸",
+          "likes": 71,
+          "image": "https://resources.cdn-kaspi.kz/img/m/p/h02/h5a/87073025589278.jpg?format=preview-large"
+        },
+        {
+          "name": "Apple AirPods 4 белый",
+          "price": "74 402 ₸",
+          "likes": 239,
+          "image": "https://resources.cdn-kaspi.kz/img/m/p/hcb/h97/87309386809374.png?format=preview-large"
+        }
+      ] ,
+      "notebooks" : [
+        {
+          "name": "ThundeRobot 911 X Wild Hunter G2 Pro 15.6\" / 16 ГБ / SSD 512 ГБ",
+          "price": "529 732 ₸",
+          "image": "https://resources.cdn-kaspi.kz/img/m/p/h58/h61/86274830073886.jpg?format=preview-large",
+          "likes": 245
+        },
+        {
+          "name": "Apple MacBook Air 13 2022 13.6\" / 8 ГБ / SSD 256 ГБ / macOS",
+          "price": "495 694 ₸",
+          "image": "https://resources.cdn-kaspi.kz/img/m/p/hf4/h52/64509322919966.jpg?format=preview-large",
+          "likes": 371
+        },
+        {
+          "name": "Lenovo IdeaPad 3 15.6\" / 4 ГБ / SSD 256 ГБ / Без ОС / 15IGL05",
+          "price": "172 400 ₸",
+          "image": "https://resources.cdn-kaspi.kz/img/m/p/h89/haa/64373052571678.jpg?format=preview-large",
+          "likes": 189
+        },
+        {
+          "name": "ThundeRobot 911S Core i5 15.6\" / 16 ГБ / SSD 512 ГБ / Без ОС",
+          "price": "388 675 ₸",
+          "image": "https://resources.cdn-kaspi.kz/img/m/p/h76/h6c/85301691547678.jpg?format=preview-large",
+          "likes": 264
+        },
+        {
+          "name": "Lenovo LOQ 15.6\" / 16 ГБ / SSD 512 ГБ / Без ОС / 15IAX9",
+          "price": "397 960 ₸",
+          "image": "hhttps://resources.cdn-kaspi.kz/img/m/p/p59/p53/15221547.jpg?format=preview-large",
+          "likes": 328
+        },
+        {
+          "name": "ThundeRobot 911 X Wild Hunter G2L 15.6\" / 16 ГБ / SSD 512 ГБ",
+          "price": "459 474 ₸",
+          "image": "https://resources.cdn-kaspi.kz/img/m/p/hd3/h97/85277334405150.jpg?format=preview-large",
+          "likes": 292
+        }
+      ]      
+  }
+  
