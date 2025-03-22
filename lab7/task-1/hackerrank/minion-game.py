@@ -1,5 +1,4 @@
 def minion_game(string):
-    # your code goes here
     stuart_score = 0
     kevin_score = 0
     

@@ -11,3 +11,7 @@ export interface Photo {
     url: string;
     thumbnailUrl: string;
   }
+export interface Posts {
+    id: number;
+    title: string
+}

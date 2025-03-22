@@ -1,12 +1,13 @@
 <div class="container">
     <h1>Album Details</h1>
   
-    <p><strong>Album ID:</strong> {{ album?.id }}</p>
+    <p><strong>Album ID:</strong> {{ album.id }}</p>
+    <p><strong>Title: </strong> {{album.title}}</p>
     
     <label for="title">Title:</label>
     <input id="title" [(ngModel)]="album.title" />
   
-    <div class="buttons">
+    <div class="buttons"> 
       <button (click)="saveChanges()">Save</button>
       <button (click)="goBack()">Return</button>
       <a [routerLink]="['/albums', album.id, 'photos']" class="photos-link">Photos</a>
