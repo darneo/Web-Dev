@@ -1,0 +1,12 @@
+<div class="company-detail">
+    <h2>{{ company.name }}</h2>
+    <p><strong>Описание:</strong> {{ company.description }}</p>
+    <p><strong>Город:</strong> {{ company.city }}</p>
+    <h3>Вакансии</h3>
+    <ul>
+      <li *ngFor="let vacancy of vacancies">
+        <a [routerLink]="['/vacancies', vacancy.id]">{{ vacancy.name }}</a>
+      </li>
+    </ul>
+  </div>
+  

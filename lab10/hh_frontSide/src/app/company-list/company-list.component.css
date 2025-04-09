@@ -1,0 +1,22 @@
+.company-list {
+    padding: 20px;
+  }
+  
+  .company-list ul {
+    list-style-type: none;
+  }
+  
+  .company-list li {
+    margin: 10px 0;
+  }
+  
+  .company-list a {
+    text-decoration: none;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .company-list a:hover {
+    text-decoration: underline;
+  }
+  

@@ -3,8 +3,8 @@ import json
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 
-from .models import Company, Vacancy
-from .serializer import CompanySerializer, VacancySerializer
+from .models import Company, Vacancy, Application
+from .serializer import CompanySerializer, VacancySerializer, ApplicationSerializer
 
 @csrf_exempt
 def company_list(request):
@@ -111,3 +111,33 @@ def top_ten_vacancies(request):
     vacancies = Vacancy.objects.order_by('-salary')[:10]
     serializer = VacancySerializer(vacancies, many=True)
     return JsonResponse(serializer.data, safe=False)
+
+@csrf_exempt
+def application_list(request):
+    if request.method == 'GET':
+        applications = Application.objects.all()
+        serializer = ApplicationSerializer(applications, many=True)
+        return JsonResponse(serializer.data, safe=False)
+
+    elif request.method == 'POST':
+        try:
+            data = json.loads(request.body)
+            serializer = ApplicationSerializer(data=data)
+            if serializer.is_valid():
+                serializer.save()
+                return JsonResponse(serializer.data, status=201)
+            return JsonResponse(serializer.errors, status=400)
+        except Exception as e:
+            return JsonResponse({"error": str(e)}, status=400)
+
+
+@csrf_exempt
+def application_detail(request, application_id):
+    try:
+        application = Application.objects.get(id=application_id)
+    except Application.DoesNotExist:
+        return JsonResponse({"error": "Application not found"}, status=404)
+
+    if request.method == 'GET':
+        serializer = ApplicationSerializer(application)
+        return JsonResponse(serializer.data, safe=False)

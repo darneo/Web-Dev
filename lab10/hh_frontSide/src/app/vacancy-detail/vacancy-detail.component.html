@@ -1,0 +1,6 @@
+<div class="vacancy-detail">
+    <h2>{{ vacancy.title }}</h2>
+    <p><strong>Описание:</strong> {{ vacancy.description }}</p>
+    <p><strong>Компания:</strong> <a [routerLink]="['/companies', vacancy.company.id]">{{ vacancy.company.name }}</a></p>
+  </div>
+  

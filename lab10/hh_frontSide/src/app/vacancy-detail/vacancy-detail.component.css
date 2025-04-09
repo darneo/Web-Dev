@@ -1,0 +1,18 @@
+.vacancy-detail {
+    padding: 20px;
+  }
+  
+  .vacancy-detail h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .vacancy-detail a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .vacancy-detail a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,9 @@
+<div class="vacancy-list">
+    <h2>Вакансии</h2>
+    <ul>
+      <li *ngFor="let vacancy of vacancies">
+        <a [routerLink]="['/companies', vacancy.id]">{{ vacancy.name }}</a>
+      </li>
+    </ul>
+  </div>
+  

@@ -1,0 +1,26 @@
+.company-detail {
+    padding: 20px;
+  }
+  
+  .company-detail h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .company-detail ul {
+    list-style-type: none;
+  }
+  
+  .company-detail li {
+    margin: 10px 0;
+  }
+  
+  .company-detail a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .company-detail a:hover {
+    text-decoration: underline;
+  }
+  
